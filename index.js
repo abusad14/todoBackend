@@ -8,7 +8,7 @@ const router = require("./Routes/todoRoutes");
 const cors = require("cors");
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL in production
+    origin: "*", // Replace with your frontend URL in production
   })
 );
 // db;
